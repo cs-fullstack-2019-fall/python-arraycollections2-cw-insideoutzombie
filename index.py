@@ -56,7 +56,7 @@ def problem3():
     'DECENT_DATA',
     'BAD_DATA',
     'DECENT_DATA',
-    'GOOD_DATA'
+    'GOOD_DATA',
     'BAD_DATA',
     'GOOD_DATA',
     'DECENT_DATA',
@@ -99,11 +99,12 @@ print(min(score_list)) # min of the array
 # Print the final word list prior to exiting the program.
 def twoArr(arr1, arr2):
     while arr1 != 'x':
-        arr1 = int(input('enter a wordstart '))
-        arr2 = int(input('enter another word o hit x to quit '))
 
-    newArray = list(range(arr1, arr2))
+
+    # newArray = list(range(arr1, arr2))
     return emptyArray
 
 
-twoArr("", "")
+twoArr()
+arr1 = int(input('enter a wordstart '))
+arr2 = int(input('enter another word o hit x to quit '))
